@@ -1,0 +1,31 @@
+body {
+  background-color: #b4ccfc;
+
+  h1 {
+    color: #6372f3;
+  }
+
+  .main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+
+  .button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(229, 253, 121);
+
+    &:hover {
+      background-color: rgb(215, 252, 54);
+      outline: 2px solid rgb(68, 209, 68);
+    }  
+  }
+  
+  .invalid {
+    border:1px solid red;
+  }
+}
